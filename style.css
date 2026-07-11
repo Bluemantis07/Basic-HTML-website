@@ -26,15 +26,7 @@ body{
     }
 }
 
-.education{
-    border: solid;
-    h3{ margin-top: 2px;
-        text-align: center;
-        border: 1px outset;
-    }
-    article{margin-left: 8px;
-   }
-}
+
 .workexp{
     border:solid;
     h3{ margin-top: 2px;
@@ -43,11 +35,26 @@ body{
         }
         article{ margin-left: 10px;}
 }
+.education{
+    border: solid;
+    h3{ margin-top: 2px;
+        text-align: center;
+        border: 1px outset;
+    }
+    article{margin-left: 10px;
+   }
+   p{
+    margin-left:10px;
+   }
+}
 .reviews{
-    h3{}
+    h3{text-align: center;}
     article{ margin-left: 20px;
         margin-right: 20px;
         border: 3px solid;
     border-radius: 20px;}
     p{margin-left: 10px;}
 }
+footer{p{
+    text-align:center;
+}}
